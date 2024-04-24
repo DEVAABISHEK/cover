@@ -33,105 +33,125 @@ Publish the website in the LocalHost.
 ## PROGRAM:
 ```
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRONT PAGE</title>
-    <style> 
-        .wrapper {
-            background-color: white;
-            height:100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .bookpage{
+    <title>BOOK COVER</title>
+    <style>
+        .bookcover {
             width: 400px;
             height: 600px;
-            color: white;
-            padding: 30px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            background-color: orangered;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            font-family: Arial, sans-serif; /* corrected font-family declaration */
+            background-image: url(robot.jpg);
             background-size: cover;
         }
-            
-        
-        .insight{
-            color: white);
-            text-align: center;
+
+        .head {
+            color: rgb(18, 210, 221);
+
         }
-        
-        
-        
-        .booktitle{
-            color:black;
+
+        .style {
+            width: 100px;
+        }
+
+        .authorname {
+            display: inline;
+            position: relative;
+            color: rgb(17, 2, 46);
+            top: 190px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: xx-large;
+            font-size: x-large;
+        }
+
+        .title {
+            color: rgb(0, 0, 0);
+            font-family: Arial, sans-serif; /* fallback font */
+            font-size: x-large;
             text-align: center;
             position: relative;
-            
-            
-        
+            top: 2px;
+
         }
-        
-        .subtitle{
-            color:gold(24, 38, 78);
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: larger;
+
+        .line {
+            width: 330px;
+            color: black;
             position: relative;
-            top: 15px;
-            text-align: center;
+            top: 180px;
         }
-        .end{
-            color:white;
-            font-family: Arial, Helvetica, sans-serif;
+
+        .end {
+            color: rgba(7, 7, 7, 0.94);
+            font-size: medium;
+            font-family: Verdana;
+            position: relative;
+            top: 85px;
+
         }
-        .name{
-           color: black;
-           font-family: Verdana, Geneva, Tahoma, sans-serif;
-           text-align: center;
+
+        .subtitle {
+            color: rgb(0, 0, 0);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* fallback font */
+            font-size: large;
+            position: relative;
+            top: 50px;
+        }
+
+        .photo {
+            position: relative;
+            top: 300px;
+            left: 300px;
+            width: 90px; /* Adjust the size here */
+            height: 100px; /* Adjust the size here */
         }
     </style>
 </head>
-<body >
-    
-    <div class="wrapper">
-        <div class="bookpage">
-            <div class="insight">
-                <p>WINNER OF THE PULLITZER PRIZE</p>
-            </div>
-            <div class="booktitle">
-                <h1><b>MY</b></h1>
-            </div>
-            <div class="booktitle">
-                <h1><b>BOOK</b></h1>
-            </div>
-            <div class="booktitle">
-                <h1><b>COVER</b></h1> 
-            </div>       
-            <div class="subtitle">
-                 <b> SECRETS IN A </b> <br>
-                 <b> SILICON VALLEY </b><br>
-                 <b> STARTUP </b>
-                 <div class="booktitle">
-                    <b>________</b>
-                 </div>     
-            <div class="name">
-                <b>DEVA ABISHEK P</b>
-                <div class="end">
-                    <p>BOOK PUBLISHER</p>
-                </div> 
-            </div>
+
+<body>
+    <div class="bookcover">
+        <div class="head">
+            WEB DESIGNING
+        </div>
+        <div class="style">
+            <hr style="color:rgb(209, 96, 237)">
+        </div>
+        <div class="title">
+            <h1>ROBOTICS</h1>
+        </div>
+        <div class="subtitle">
+           IMPACT OF ROBOTICS IN FUTURE
+        </div>
+        <div class="subtitle">
+            Best seller of 2024
+        </div>
+
+        <div class="photo">
+            <img src="deva.jpg" width="90" height="90" style="border-radius: 50%;">
+        </div>
+        <div class="line">
+            <hr style="color:rgba(81, 13, 13, 0.555)">
+        </div>
+        <div class="authorname">
+            <p><b>DEVA ABISHEK P</b></p>
+        </div>
+        
+        <div class="end">
+            <b>NEW EDITION</b>
         </div>
     </div>
 </body>
-</html>
+
+</html>      
 ```
 
 ## OUTPUT:
-![Screenshot 2024-04-22 155241](https://github.com/DEVAABISHEK/cover/assets/150319305/8a8ca91c-8d3b-422b-857a-7b10b7bc5ce2)
+![Screenshot 2024-04-24 193237](https://github.com/DEVAABISHEK/cover/assets/150319305/fba3b628-0255-4552-a42c-5f99ea30b9f7)
+
 
 
 ## RESULT:
